@@ -1,0 +1,31 @@
+# Configuración sensible
+.env
+.meli_token.json
+
+# Binarios compilados (solo en root)
+/bin
+/publish
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Directorios temporales
+.kiro/
+tmp/
+temp/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Go
+go.work
+go.work.sum
+
+# Logs
+*.log
